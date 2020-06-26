@@ -49,7 +49,7 @@ var f:text;
 begin
   assign(f, filename);
   rewrite(f);
-  writeln(f,round(a));
+  writeln(f,a);
   close(f);
 end;
 

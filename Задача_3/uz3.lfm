@@ -1,7 +1,7 @@
 object Form_Cube: TForm_Cube
-  Left = 586
+  Left = 638
   Height = 278
-  Top = 399
+  Top = 99
   Width = 344
   Caption = 'Объём куба и площадь'
   ClientHeight = 258

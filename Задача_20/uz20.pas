@@ -64,6 +64,9 @@ implementation
 procedure TForm_Progression.FormCreate(Sender: TObject);
 begin
   flag:=true;
+  Edit_a.Text:='1';
+  Edit_d.text:='1';
+  Edit_n.text:='1';
 end;
 
 
@@ -191,6 +194,7 @@ begin
       Memo_result.Append('При  d= '+floattostr(d));
       Memo_result.Append('При  n= '+inttostr(n));
       Memo_result.Lines.Add(' Сумма арифметической прогрессии равна : '+floattostr(S));
+      memo_result.Lines.Add('--------------------------');
       memo_result.Lines.Add(' ');
     end
   else

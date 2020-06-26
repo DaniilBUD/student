@@ -115,6 +115,7 @@ end;
 procedure TForm_Cube.FormCreate(Sender: TObject);
 begin
   flag:=true;
+  edit_side:='1';
 end;
 
 
@@ -131,6 +132,7 @@ begin
 end;
 
 procedure TForm_Cube.Save_fileClick(Sender: TObject);
+var f:text;
 begin
   DataFromForm();
   if flag=true then
